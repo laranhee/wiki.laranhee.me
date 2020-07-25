@@ -1,0 +1,6 @@
+# https://docs.netlify.com/routing/redirects/
+[[redirects]]
+  from = "/*"
+  to = "https://ranheewiki.herokuapp.com/:splat"
+  status = 200
+  force = true
