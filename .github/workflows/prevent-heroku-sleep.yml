@@ -1,0 +1,8 @@
+on:
+  schedule:
+    - cron: "*/29 * * * *"
+jobs:
+  request:
+    runs-on: ubuntu-latest
+    steps:
+      - run: curl https://wiki.laranhee.me
